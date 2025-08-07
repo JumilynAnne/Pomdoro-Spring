@@ -49,3 +49,7 @@ button:hover {
     
  }
 
+button:active {
+  background-color: #A8DF8E; 
+  transition: ease-in-out 0.10s;   
+}
