@@ -1,0 +1,45 @@
+@font-face {
+    font-family: myfont;
+    src: url("font/sample-font.ttf") format("truetype");
+}
+body{
+    background-color: #A8DF8E ;
+
+}
+
+h1{
+    font-family: myfont ;
+    color: #F3FDE8;
+    font-size:10rem;
+    border: white solid;
+    flex-direction: column;
+    text-align: center;
+}
+
+.timer{
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFE5E5;
+    font-size: 9rem;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    font-family: myfont;
+    
+}
+
+button{
+    background-color: #A8DF8E;
+    font-family: myfont;
+    border: #F3FDE8 solid 5px;
+    border-radius: 20px;
+    font-size: 3em;
+    color: #F3FDE8;
+    padding: 30px;
+}
+
