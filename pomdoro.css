@@ -17,22 +17,25 @@ h1{
 
 .timer{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     color:#FFE5E5;
     font-size: 9rem;
     text-align: center;
 }
 
-.buttons{
+
+.button-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 50px;
     font-family: myfont;
+  
     
 }
 
-button{
+.buttons{
     background-color: #A8DF8E;
     font-family: myfont;
     border: #F3FDE8 solid 5px;
@@ -41,15 +44,17 @@ button{
     color: #F3FDE8;
     padding: 30px;
     transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
 
-button:hover {
+.buttons:hover {
    background-color: #FFBFBF;
-   font-size: 5em;
-    
+   scale: 1.2;
  }
 
-button:active {
+.buttons:active {
   background-color: #A8DF8E; 
   transition: ease-in-out 0.10s;   
 }
+
+
